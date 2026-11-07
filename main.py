@@ -25,8 +25,8 @@ if hasattr(sys.stderr, "reconfigure"):
 # ====================================================================
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 BAKONG_TOKEN = os.environ.get("BAKONG_TOKEN", "").strip()
-BAKONG_ACCOUNT_ID = os.environ.get("BAKONG_ACCOUNT_ID", "").strip()
-MERCHANT_NAME = os.environ.get("MERCHANT_NAME", "Store").strip()
+BAKONG_ACCOUNT_ID = os.environ.get("BAKONG_ACCOUNT_ID", "himlihour@bkrt").strip()
+MERCHANT_NAME = os.environ.get("MERCHANT_NAME", "Him Lihour").strip()
 MERCHANT_CITY = os.environ.get("MERCHANT_CITY", "Phnom Penh").strip()
 
 PLAN_DAYS = int(os.environ.get("PLAN_DAYS", "10"))
